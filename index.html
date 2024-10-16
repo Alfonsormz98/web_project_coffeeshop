@@ -28,8 +28,57 @@
   </head>
   <body>
     <div class="page">
-      Probando
-      <header class="header"></header>
+      <!----------------- Envoltorio de la pagina con la clase Page --------------------------->
+
+      <!------------------------------------------------------------------------------------------------------->
+      <!-------------------------- Pàgina de encabezado -------------------------------------------------------->
+      <!------------------------------------------------------------------------------------------------------->
+
+      <header class="header">
+        <!------------------------------------------------------------------------------------------------------->
+        <!-------------------------- Barra de navegacion -------------------------------------------------------->
+
+        <nav class="nav">
+          <img
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="Logotipo logo coffeeshop dark"
+            class="nav__logo"
+          />
+          <!------------------------ Enlaces de navegacion ------------------------------------------------------->
+          <ul class="nav__links">
+            <li><a href="#" class="nav__link">Recetas</a></li>
+            <li><a href="#" class="nav__link">Reservar una mesa</a></li>
+            <li><a href="#" class="nav__link">Contactos</a></li>
+          </ul>
+        </nav>
+        <!--------------------------- Contenido del encabezado --------------------------------------------------->
+        <div class="header__content">
+          <!-- <div> -->
+          <h1 class="header__title">
+            <span class="header__span-accent">Café de especialidad</span>
+            <span>en Triple Peaks</span>
+          </h1>
+          <p class="header__description">
+            ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café
+            para darte energía y motivar tu creatividad.
+          </p>
+          <!-- </div> -->
+          <img
+            src="./images/inside_coffee_shop.png"
+            alt="Imagen de una tienda de cafè"
+            class="header__image"
+          />
+        </div>
+        <!-------------------------- Pie de pagina del encabezado --------------------------------------------->
+        <div class="header__footer">
+          <p class="header__paragraph">
+            <span>Horario:</span>
+            <span>Lunes a Viernes (de 10:00h a 19:00h)</span>
+            <span>Sábados y Domingos (de 11:00h a 18:00h)</span>
+          </p>
+        </div>
+      </header>
+
       <main class="content">
         <section class="recipes"></section>
         <section class="reservation"></section>
