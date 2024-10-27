@@ -136,10 +136,10 @@ span {
   gap: 40px;
   max-width: 100%;
 }
-.recipes__video-item {
-  /* position: relative;
-  padding-top: 56.25%; */
-}
+/* .recipes__video-item {
+  position: relative;
+  padding-top: 56.25%;
+} */
 .recipes__iframe {
   border: none;
   width: 480px;
