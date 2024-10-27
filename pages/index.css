@@ -95,6 +95,8 @@ span {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
+}
+.header__paragraph {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -102,7 +104,6 @@ span {
   line-height: 20px;
   color: #838383;
 }
-
 .recipes {
   background-image: url("../images/background_recipes.svg");
   background-size: cover;
